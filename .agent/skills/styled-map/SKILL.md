@@ -17,6 +17,17 @@ description: SWELL Styled Google Mapプラグインの開発、保守、およ�
 - `assets/js/frontend.js`: フロントエンドでのフェードイン効果などの制御。
 - `build.ps1`: リリース用ZIP作成スクリプト（PowerShell）。バージョン自動取得・不要ファイル除外・ディレクトリ構造生成を行います。
 
+## ソースコード管理
+- **リポジトリ**: https://github.com/kazukiqq/swell-styled-map
+- **ブランチ**: `main`
+- **運用ルール**: 変更後は必ずコミットし、リモートへプッシュしてください。
+
+```bash
+git add .
+git commit -m "変更内容の概要"
+git push origin main
+```
+
 ## 主要機能と仕様
 
 ### 1. ショートコード `[swell_styled_map]`
