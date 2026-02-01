@@ -1,0 +1,12 @@
+
+# Build artifacts
+*.zip
+temp_build/
+temp_test/
+output.log
+create_zip.py
+temp_skills/
+
+# System files
+.DS_Store
+Thumbs.db
